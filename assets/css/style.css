@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+
+}
+
+.read-btn{
+    background-color: #1a9bdc;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 3rem;
+
+}
+
+.read-btn a{
+    color: white;
+
+}
+
+.read-btn:hover{
+    background-color: #ff5990;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+
+
+
+
+.logo img{
+    width: 11rem;
+}
+
+.navbar, .contant{
+    margin: 10px 140px;
+}
+
+.nav-item{
+    width: max-content;
+    font-weight: 500;
+}
+
+#navbarNav img{
+    width: 45px;
+
+}
+
+.describe{
+    align-items: center;
+}
+
+.describe-wrapper{
+    font-size: smaller;
+}
+
+.web a{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+#banner{
+    background: url(../images/Main\ Banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 15cm;
+}
+
+#banner .row{
+    width: 100%;
+    height: 15cm;
+}
+#banner .col-6{
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+#rank{
+    background: url(../images/Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 13cm;
+}
+
+#rank .row{
+    width: 100%;
+    height: 13cm;
+    color: #ffff;
+    font-size: large;
+}
+
+#rank .col-3{
+    padding: 0 60px 0 60px;
+    font-size: larger;
+}
+
+#rank .col-3 .py-2::after{
+    content: '';
+    background-color: #ffffff;
+    width: 70px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+#gallery{
+    background: url(../images/Background-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 20cm;
+}
+
+.gallery-wrapper{
+    color: #ffff;
+    padding: 55px 0 34px 0;
+}
+
+.gallery-wrapper p{
+    font-weight: 400;
+}
